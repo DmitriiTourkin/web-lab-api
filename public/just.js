@@ -1,0 +1,9 @@
+const certainData = [
+            {id: 5, imageUrl: 'https://catherineasquithgallery.com/uploads/posts/2023-01/1674178922_catherineasquithgallery-com-p-serii-fon-kvadrat-foto-50.jpg', title: 'Картофельная вафля с беконом', price: 450, ingredients: ['Картофельная вафля (картофель, мука, молоко, масло сливочное, яйцо, укроп)', 'глазунья', 'бекон из свиной вырезки', 'соус горчично-сливочный', 'помидоры черри', 'рукола']},
+            {id: 6, imageUrl: 'https://catherineasquithgallery.com/uploads/posts/2023-01/1674178922_catherineasquithgallery-com-p-serii-fon-kvadrat-foto-50.jpg', title: 'Боул с индейкой', price: 450, ingredients: ['Индейка', 'овощная сальса (перец болгарский, огурец свежий, авокадо, манго, кинза, мята, соль, сок лайма, помидоры)', 'смесь отварных круп', 'айсберг', 'романо', 'соус медово-горчичный (горчица зернистая, мед, масло оливковое, лимонный сок)', 'помидоры черри', 'авокадо', 'лайм', 'шпинат', 'рукола', 'мята']},
+            {id: 7, imageUrl: 'https://catherineasquithgallery.com/uploads/posts/2023-01/1674178922_catherineasquithgallery-com-p-serii-fon-kvadrat-foto-50.jpg', title: 'Боул с креветками', price: 550, ingredients: ['Креветки',  'овощная сальса (перец болгарский, огурец свежий, авокадо, манго, кинза, мята, соль, сок лайма, помидоры)', 'смесь отварных круп', 'айсберг', 'романо', 'соус медово-горчичный (горчица зернистая, мед, масло оливковое, лимонный сок)', 'помидоры черри', 'авокадо', 'лайм', 'шпинат', 'рукола', 'мята']},
+            {id: 8, imageUrl: 'https://catherineasquithgallery.com/uploads/posts/2023-01/1674178922_catherineasquithgallery-com-p-serii-fon-kvadrat-foto-50.jpg', title: 'Драники с беконом и яйцом пашот', price: 450, ingredients: ['Бекон из свиной вырезки', 'яйцо пашот', 'голландский соус', 'помидоры', 'картофель', 'масло растительное', 'луковые хлопья', 'микрозелень']},
+        ];
+
+certainData.map(element => console.log('Элемент ', element));
+
