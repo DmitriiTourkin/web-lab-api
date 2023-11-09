@@ -58,15 +58,20 @@
 .flex-item {
   padding: 30px;
   flex: 1;
-  box-shadow: darkgray;
-  background-color: blanchedalmond;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-radius: 20px;
+  background: linear-gradient(white, white);
 
 }
+
 
 .flex-item .dish-title {
   font-size: 25px;
   font-weight: bold;
+
 }
+
 .cards-listing-block {
   margin-left: 70px;
   margin-right: 70px;
@@ -93,4 +98,34 @@
 .navbar-image-logo {
   width: 250px;
   height: 100%;
+}
+
+
+.navbar {
+  background-color: rgba(54, 37, 43, 1);
+}
+
+.show-details {
+  border-radius: 20px;
+  float: right;
+  background-color: rgba(54, 37, 43, 1);
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex-container {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: rgba(54, 37, 43, 1);
+  margin-bottom: 50px;
+}
+
+.footer {
+  height: 250px;
+  padding-top: 30px;
+  background-color: rgba(54, 37, 43, 1);
+}
+
+.main-banner {
+  max-width: 1490px;
 }

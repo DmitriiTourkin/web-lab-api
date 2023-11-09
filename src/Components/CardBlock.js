@@ -12,7 +12,7 @@ function Card(props) {
                         <img className="menu-item-image" src={props.dataForACard.imageUrl}/>
                         <h3 className="dish-title">{props.dataForACard.title}</h3>
                     </div>
-                    <button className="btn btn-warning show-details" onClick={(event) => setIngredientsState(!ingredientsShown)}>{ingredientsShown ? 'Скрыть': 'Отобразить'}</button>
+                    <button className="btn show-details" onClick={(event) => setIngredientsState(!ingredientsShown)}>{ingredientsShown ? 'Скрыть': 'Отобразить'}</button>
                     {ingredientsShown && (
                         <div>
                             <ul>
@@ -24,6 +24,9 @@ function Card(props) {
                             </ul>
                         </div>
                     )}
+                    <div className="menu-price">
+                        <h1 style={{color: 'rgba(90, 50, 64, 1)'}}>{props.dataForACard.price} руб.</h1>
+                    </div>
                 </div>
             </div>
         </div>
